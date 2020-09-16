@@ -76,8 +76,9 @@ p {
 
 @media screen and (max-width: 540px) {
   #container {
-    width: 95%;
+    width: 90%;
     margin-left: 15px;
+    
   }
     
         
