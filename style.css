@@ -74,10 +74,12 @@ p {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   #container {
     width: 87%;
-    object-position: center;
+    
+        
+
     
     
 }
