@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- This is the nav bar it contains links to other pages as well as a home button. -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div>
         <a class="name" class="nav-link" href="index.html">Dennis Francis</a>
@@ -43,33 +44,37 @@
         </div>
       </div>
     </nav>
-    <div class="container" id="container">
-      <div class="row">
-        <div class="col-sm-12">
+    <!-- This container contains the majority of the content on the page. Header and form. -->
+    <main class="container" id="container">
+      <!-- This is the main header for the article. (Contact) -->
+      <header class="row">
+        <section class="col-sm-12">
           <h1>Contact</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-8">
+        </section>
+      </header>
+      <!-- This article contains the contact form. -->
+      <article class="row">
+        <section class="col-sm-8">
           <form>
-            <div class="margin" class="form-group">
+            <section class="margin" class="form-group">
               <label for="exampleInput">Name</label>
               <input class="form-control" type="text">
-            </div>
-            <div class="margin" class="form-group">
+            </section>
+            <section class="margin" class="form-group">
               <label for="exampleInputEmail1">Email</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="margin" class="form-group">
+            </section>
+            <section class="margin" class="form-group">
               <label for="exampleFormControlTextarea1">Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+            </section>
+            <!-- This is the button that you click to submit the contact info entered. -->
             <button type="submit" id="submit">Submit</button>
           </form>
-        </div>
-      </div>
-    </div>
-
+        </section>
+      </article>
+    </main>
+    <!-- this is the footer it contains ©Copyright info. -->
     <footer class="footer mt-auto py-3" id="footer">
       <div class="container">
         <span class="text-muted">© Copyright 2020 Dennis Francis.</span>
