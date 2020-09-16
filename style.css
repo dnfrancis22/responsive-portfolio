@@ -78,6 +78,12 @@ p {
 
 }
 
+#footer {
+  background-color: rgb(68, 68, 68);
+  border-top: 10px solid teal;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   #container {
     width: 90%;
