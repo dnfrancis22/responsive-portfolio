@@ -80,15 +80,26 @@ p {
   margin: 15px;
   font-size: 18px;
 }
+/* ul an a are specific to the links on the about me page. */
+ul {
+  color: teal;
+}
+
+a {
+  color: teal;
+  font-size: 18px;
+}
 /* the class img is specific to the images on the portfolio page. */
 .img {
   width: 350px;
   height: 350px;
 }
+
 /* footer is specific to the footer section of each page. */
 #footer {
   background-color: rgb(68, 68, 68);
   border-top: 10px solid teal;
+  font-size: 18px;
   text-align: center;
   position: absolute;
   right: 0;
